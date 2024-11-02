@@ -1,0 +1,27 @@
+{
+  "name": "sample-code-node",
+  "version": "1.0.0",
+  "description": "Sample code for nodejs sdk",
+  "main": "server.js",
+  "dependencies": {
+    "authorizenet": "^1.0.9",
+    "chai": "^3.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "eslint": "^4.18.2",
+    "express": "^4.21.1",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "AuthorizeNet",
+    "sample",
+    "codes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/AuthorizeNet/sample-code-node#readme"
+}
