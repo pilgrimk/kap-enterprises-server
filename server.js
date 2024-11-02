@@ -12,7 +12,9 @@ app.use(express.json());
 
 // 2. Create Endpoint to generate payment token
 app.post('/get-token', (req, res) => {
+    // console.log('Hosted payment get token, entry');
     const { amount, firstName, lastName, zip, memo } = req.body;
+    // console.log(`FirstName: ${firstName}, Amount: ${amount}, Zip: ${zip}`);
 
     // 3. Validate required fields
     if (!amount || !firstName || !lastName) {
